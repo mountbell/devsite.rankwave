@@ -1,4 +1,4 @@
-﻿# This is the default format. 
+# This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Rankcloud Developer's Blog
+title : Rankwave Developer's
 tagline: Site Tagline
 author :
   name : Name Lastname
@@ -16,12 +16,6 @@ author :
   github : username
   twitter : username
   feedburner : feedname
-  
-links:
-  - title: Blog
-    url: /blog/
-  - title: Archive
-    url: /archive.html
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -31,7 +25,7 @@ links:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://rankcloud.github.io
+production_url : http://eternite.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -85,19 +79,19 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-#  comments :
-#    provider : disqus
-#    disqus :
-#      short_name : jekyllbootstrap
-#    livefyre :
-#      site_id : 123
-#    intensedebate :
-#      account : 123abc
-#    facebook :
-#      appid : 123
-#      num_posts: 5
-#      width: 580
-#      colorscheme: light
+  comments :
+    provider : disqus
+    disqus :
+      short_name : jekyllbootstrap
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -134,3 +128,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+paginate: 3
