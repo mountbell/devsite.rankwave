@@ -79,9 +79,12 @@
             <ul class="nav nav-list">
               <li class="nav-header">Sidebar</li>
               <li class="active"><a href="#">Link</a></li>
+               {% for link in site.links %}
+								<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+		       		 {% endfor %}
+              <!--<li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>-->
               <li class="nav-header">Sidebar</li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
