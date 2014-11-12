@@ -1,4 +1,3 @@
-dev.rankwave
+Welcome to RANKWAVE developer's site GitHub.
 ============
-
-rankwave developer's site
+Comming soon!!
