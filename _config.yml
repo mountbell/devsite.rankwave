@@ -16,13 +16,10 @@ author :
     
 links:
   - title: RankCloud
-	category: product
     url: /product/rankcloud/
   - title: Moment
-    category: product
     url: /product/moment/
   - title: Connect
-    category: product
     url: /product/connect/
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
