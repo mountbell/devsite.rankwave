@@ -16,12 +16,14 @@ author :
     
 links:
   - title: RankCloud
-    url: /product/rankcloud/
+	url: /product/rankcloud/
 	category: product
   - title: Moment
-    url: /product/moment/
+	url: /product/moment/
+	category: product
   - title: Connect
-    url: /product/connect/
+	url: /product/connect/
+	category: product
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
