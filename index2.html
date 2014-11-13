@@ -1,1 +1,21 @@
+---
+description: ""
+paginate: 3
+---
+{% include JB/setup %}
 developer's site
+
+{% for category in site.categories %}
+    {% if category[0] == page.rcategory %}
+        {% for catposts in category %}
+            {% if forloop.first %}
+                {% continue %}
+            {% endif %}
+            {% for catpost in catposts %}
+
+                <p>{{ catpost.title }}</p>
+
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
