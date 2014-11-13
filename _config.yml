@@ -18,9 +18,9 @@ author :
   feedburner : feedname
   
 links:
-  - title: Blog
-    url: /blog/
-  - title: Archive
+  - title: SDK
+    url: /sdk/
+  - title: bigcube
     url: /archive.html
 
 # The production_url is only used when full-domain names are needed
