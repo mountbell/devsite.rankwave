@@ -4,6 +4,8 @@ paginate: 3
 
 developer's site
 
+{% include JB/setup %}
+
 {% for category in site.categories %}
     {% if category[0] == page.rcategory %}
         {% for catposts in category %}
