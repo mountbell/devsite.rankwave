@@ -19,7 +19,7 @@ paginate: 3
     <div class='panel-body'>
       {{ post.content | truncate: 200 }}
     </div>
-    <p><a class="btn js-btn" href="{{ BASE_PATH }}{{ post.url }}">더 보기 &raquo;</a></p>
+    <p><a class="btn js-btn" href="{{ BASE_PATH }}{{ post.url }}"> more &raquo;</a></p>
   </div>
   {% endfor %}
 </div>
@@ -28,11 +28,11 @@ paginate: 3
   {% if site.total_pages > 1 %}
   <ul class='pagination'>
     {% if site.previous_page %}
-      <li><a href='{{ BASE_PATH }}{{ site.first_page_path }}'>&laquo; 처음</a></li>
-      <li><a href='{{ BASE_PATH }}{{ site.previous_page_path }}'>&lt; 이전</a></li>
+      <li><a href='{{ BASE_PATH }}{{ site.first_page_path }}'>&laquo; <<</a></li>
+      <li><a href='{{ BASE_PATH }}{{ site.previous_page_path }}'>&lt; <</a></li>
     {% else %}
-      <li class='disabled'><span>&laquo; 처음</span></li>
-      <li class='disabled'><span>&lt; 이전</span></li>
+      <li class='disabled'><span>&laquo; <<</span></li>
+      <li class='disabled'><span>&lt; <</span></li>
     {% endif %}
 
     {% if site.page > 3 %}
@@ -58,11 +58,11 @@ paginate: 3
     {% endif %}
 
     {% if site.next_page %}
-      <li><a href='{{ BASE_PATH }}{{ site.next_page_path }}'>다음 &gt;</a></li>
-      <li><a href='{{ BASE_PATH }}{{ site.last_page_path }}'>끝 &raquo;</a></li>
+      <li><a href='{{ BASE_PATH }}{{ site.next_page_path }}'>> &gt;</a></li>
+      <li><a href='{{ BASE_PATH }}{{ site.last_page_path }}'>>> &raquo;</a></li>
     {% else %}
-      <li class='disabled'><span>다음 &gt;</span></li>
-      <li class='disabled'><span>끝 &raquo;</span></li>
+      <li class='disabled'><span>> &gt;</span></li>
+      <li class='disabled'><span>>> &raquo;</span></li>
     {% endif %}
   </ul>
   {% endif %}
