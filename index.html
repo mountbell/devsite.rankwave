@@ -84,7 +84,7 @@ paginate: 3
             <ul class="nav nav-list">
               <li class="nav-header">Product</li>
 				{% for link in site.links %}
-						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.category }}</a></li>
 				{% endfor %}
               <li class="nav-header">Sidebar</li>
               <li><a href="#">Link</a></li>
