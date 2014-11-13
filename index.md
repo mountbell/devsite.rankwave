@@ -7,7 +7,6 @@ paginate: 3
 {% include JB/setup %}
 
 
-
 <div class='row' style='margin-top: 20px;'>
 
 <div class='col-sm-10 col-sm-offset-1'>
