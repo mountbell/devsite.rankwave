@@ -14,16 +14,20 @@ author :
   name : RANKWAVE Development Team
   email : dev_team@rankwave.net
     
-links:
-  - title: RankCloud
-	url: /product/rankcloud/
-	category: product
-  - title: Moment
-	url: /product/moment/
-	category: product
-  - title: Connect
-	url: /product/connect/
-	category: product
+links: 
+  - 
+    category: product
+    title: RankCloud
+    url: /product/rankcloud/
+  - 
+    category: product
+    title: Moment
+    url: /product/moment/
+  - 
+    category: product
+    title: Connect
+    url: /product/connect/
+	
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
