@@ -85,20 +85,27 @@ paginate: 3
               <li class="nav-header">Product</li>
 				{% for link in site.links %}
 					{% if link.category == 'product' %}
-						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.production_url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.BASE_PATH }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 					{% endif %}
 				{% endfor %}
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li class="nav-header">Documents</li>
+				{% for link in site.links %}
+					{% if link.category == 'docs' %}
+						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.BASE_PATH }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+              <li class="nav-header">SDKs</li>
+				{% for link in site.links %}
+					{% if link.category == 'sdk' %}
+						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.BASE_PATH }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+			  <li class="nav-header">Tools</li>
+				{% for link in site.links %}
+					{% if link.category == 'tool' %}
+						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.BASE_PATH }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+					{% endif %}
+				{% endfor %}	
             </ul>
           </div><!--/.well -->
         </div><!--/span-->

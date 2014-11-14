@@ -27,7 +27,43 @@ links:
     category: product
     title: Connect
     url: /html/product/connect/
-
+  - 
+    category: doc
+    title: RankCloud
+    url: /html/doc/rankcloud/
+  - 
+    category: doc
+    title: Moment
+    url: /html/doc/moment/
+  - 
+    category: doc
+    title: Connect
+    url: /html/doc/connect/
+  - 
+    category: sdk
+    title: RankCloud
+    url: /html/sdk/rankcloud/
+  - 
+    category: sdk
+    title: Moment
+    url: /html/sdk/moment/
+  - 
+    category: sdk
+    title: Connect
+    url: /html/sdk/connect/
+  - 
+    category: tool
+    title: RankCloud
+    url: /html/tool/rankcloud/
+  - 
+    category: tool
+    title: Moment
+    url: /html/tool/moment/
+  - 
+    category: tool
+    title: Connect
+    url: /html/tool/connect/
+	
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
