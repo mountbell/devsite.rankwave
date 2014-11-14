@@ -1,4 +1,11 @@
-﻿
+---
+title: "Connect"
+description: ""
+group: connect
+---
+
+{% include JB/setup %}
+
 {% for category in site.categories %}
     {% if category[0] == page.rcategory %}
         {% for catposts in category %}
@@ -11,5 +18,12 @@
 
             {% endfor %}
         {% endfor %}
+    {% endif %}
+{% endfor %}
+
+
+{% for post in site.posts %}
+    {% if post.categories contains 'connect' %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
 {% endfor %}
