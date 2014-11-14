@@ -90,7 +90,7 @@ paginate: 3
 				{% endfor %}
               <li class="nav-header">Documents</li>
 				{% for link in site.links %}
-					{% if link.category == 'docs' %}
+					{% if link.category == 'doc' %}
 						<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.BASE_PATH }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 					{% endif %}
 				{% endfor %}
