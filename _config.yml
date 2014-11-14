@@ -18,15 +18,15 @@ links:
   - 
     category: product
     title: RankCloud
-    url: html/product/rankcloud/
+    url: /html/product/rankcloud/
   - 
     category: product
     title: Moment
-    url: html/product/moment/
+    url: /html/product/moment/
   - 
     category: product
     title: Connect
-    url: html/product/connect/
+    url: /html/product/connect/
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -36,7 +36,7 @@ links:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://rankwave.github.io/devsite.rankwave/
+production_url : http://rankwave.github.io/devsite.rankwave
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -65,7 +65,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://rankwave.github.io/devsite.rankwave/
+  BASE_PATH : http://rankwave.github.io/devsite.rankwave
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
