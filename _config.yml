@@ -52,18 +52,6 @@ links:
     category: sdk
     title: Connect
     url: /html/sdk/connect/
-  - 
-    category: tool
-    title: RankCloud
-    url: /html/tool/rankcloud/
-  - 
-    category: tool
-    title: Moment
-    url: /html/tool/moment/
-  - 
-    category: tool
-    title: Connect
-    url: /html/tool/connect/
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
